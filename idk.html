@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="idk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="c1">
+            <div class="B1">
+                <h2 class="title">오늘의 식단표</h2>
+            </div>
+            <div class="idk" id="breakfast">
+                <div class="B">
+                    <h2>아침</h2>
+                </div>
+                <div class="input" onclick="Choose(1)" id="idk1"></div>
+                <div class="result" id="R1">
+                    <p id="c1">당:</p>
+                    <p id="s1">탄수화물:</p>
+                </div>
+            </div>
+            <div class="idk" id="launch">
+                <div class="B">
+                    <h2>점심</h2>
+                </div>
+                <div class="input" onclick="Choose(2)" id="idk2"></div>
+                <div class="result" id="R2">
+                    <p id="c2">당:</p>
+                    <p id="s2">탄수화물:</p>
+                </div>
+            </div>
+            <div class="idk" id="dinner">
+                <div class="B">
+                    <h2>저녁</h2>
+                </div>
+                <div class="input" onclick="Choose(3)" id="idk3"></div>
+                <div class="result" id="R3">
+                    <p id="c3">당:</p>
+                    <p id="s3">탄수화물:</p>
+                </div>
+            </div>
+        </div>
+        <script src="idk.js"></script>
+    </div>
+    <h1 class="Result" id="Result">...</h1>
+</body>
+</html>

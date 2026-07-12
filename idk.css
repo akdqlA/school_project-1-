@@ -1,0 +1,85 @@
+body {
+    background-image: url(kiwihug-3gifzboyZk0-unsplash.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position:relative;
+    flex-direction: column;
+}
+.container{
+    width:1000px;
+    transform:translateY(-300px);
+    display:flex;
+    justify-content:center;
+}
+.container .c1{
+    background-image: url(heather-green-bOrMAThd09M-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    border:4px solid rgb(75, 75, 75);
+    width:100%;
+}
+.container .c1 .idk{
+    display:flex;
+}
+.container .c1 .B{
+    border:4px solid rgb(75, 75, 75);
+    width:10%;
+    text-align:center;
+}
+.container .c1 .B1{
+    padding-left:2rem;
+    border:4px solid rgb(75, 75, 75);
+    width:96%
+}
+.container .c1 .idk .input{
+    width:70%;
+    border:4px solid rgb(75, 75, 75);
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    overflow: hidden;
+    height:77.81px;
+}
+h2{
+    font-family: "Jua", sans-serif;
+}
+
+.btn{
+    display: inline-block;
+    font-family: "Jua", sans-serif;
+    font-size: 14px;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    width:10rem;
+    height:5rem;
+}
+.btn {
+    background: #fff;
+    border: 2px solid #ef4836;
+    color: #ef4836;
+}
+.btn:hover {
+    background: #ef4836;
+    border-color: #ef4836;
+    color: #fff;
+}
+.container .c1 .idk .input p{
+    font-family: "Jua", sans-serif;
+    font-size:2rem;
+}
+.result{
+    width:20%;
+    display:flex;
+    justify-content:left;
+    border:4px solid rgb(75, 75, 75);
+}
+.result p{
+    font-family: "Jua", sans-serif;
+}
+h1{
+    font-family: "Jua", sans-serif;
+}
